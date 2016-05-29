@@ -1,0 +1,52 @@
+/*.temp{
+    display: inline-block;
+}*/
+body{
+    margin: 0;
+}
+
+.container{
+    width: 55%;
+    margin: 0 auto; 
+}
+
+
+#logo{
+    height: 225px; /* 225px/1440px */
+	width: 225px; 
+    border-radius: 100%;
+    margin-left: 20px;
+    float:left;
+}
+#brief{
+    height: 20.40816327%; /* 50px/245px */
+    width: 59.34%; /* 470px/792px */
+    padding-top: 70px; /* 70px/291px */
+    padding-bottom: 85px;
+    margin-left: 270px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+
+
+
+.game img{
+
+    display: inline;
+    margin: 20px;
+    height: 140px;
+    width: 210px;
+    box-shadow: 5px 5px 9px #d0cdcd, -5px -3px 9px lightGrey;
+    
+}
+
+#footer{
+    background-color: lightgrey;
+    height:25px;
+    width: 100%;
+    margin-top: 65px;
+    padding-top: 15px;
+    text-align: center;
+    position: fixed;
+}
