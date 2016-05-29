@@ -4,12 +4,18 @@
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-.up{
+#up{
     overflow: auto;
+}
+
+#down{
+    margin-top: 30px;
 }
 .temp{
     display: inline-block;
 }
+
+
 
 body{
     margin: 0;
@@ -21,7 +27,7 @@ body{
 }
 
 #logo{
-    height: 225px; /* 225px/1440px */
+    height: 225px; 
 	width: 225px; 
     border-radius: 100%;
     margin-left: 20px;
@@ -51,7 +57,7 @@ body{
     background-color: lightgrey;
     height:40px;
     width: 100%;    
-    margin-top: 70px;
+    margin-top: 60px;
     padding-top: 10px;
     text-align: center;
 }
