@@ -12,6 +12,8 @@ p{
 
 html{    
     background-color: #131313;
+    background: linear-gradient(to top, rgba(39, 48, 128, 0.5), black, black, black, rgba(39, 48, 128, 0.3)), radial-gradient(circle, black 0%, rgba(255,44,44, 0.2) 100%), url("resources/BGPattern.png");
+    height: 100vh;
 }
 
 #Frame{
