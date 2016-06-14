@@ -1,3 +1,15 @@
+var info;
+
+function FillGameInfo(id) {
+
+}
+
+function popup(event){
+    document.getElementsByClassName("Base")[0].width = "68vw";
+    document.getElementsByClassName("Wrapper_Info")[0].opacity = 1;
+    document.getElementsByClassName("blackMask")[0].opacity = 0.4;
+}
+
 function loadJSON(callback) {
     var xobj = new XMLHttpRequest();
     xobj.overrideMimeType("application/json");
