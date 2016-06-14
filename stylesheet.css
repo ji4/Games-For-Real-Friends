@@ -32,6 +32,8 @@ html{
         left: 0 ;
         width: 40%;
         height: 100%;
+        
+        overflow: auto;
     }
 
     #Wrapper_Logo > img{
@@ -45,22 +47,47 @@ html{
         position: relative;
         color: white;
         font-size: 12pt;
-        max-width: 60%;
+        max-width: 50%;
         
         bottom: 50%;
         transform: translateY(50%);
+        
+        overflow: auto;
     }
 
+#game_container{
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
 
+.game{
+    display: inline-block;
+    width: 28%;
+    cursor: pointer;
+}
 
-.game img{
+.game:after{
+    padding-top: 56.25%;
+    content: '';
+    display: block;
+}
 
-    display: inline;
-    margin: 20px;
-    height: 140px;
-    width: 210px;
-    box-shadow: 5px 5px 9px #d0cdcd, -5px -3px 9px lightGrey;
+.game>img{
+    float: left;
+    display: block;
+    width: 100%;
     
+    transition: width .8s, left 1.8s, top 1.8s;
+}
+
+.game>img:hover{
+    position: relative;
+    float: left;
+    width: 104%;
+    left: -4%;
+    top: -4%;
+    z-index: 5;
 }
 
 #footer{
