@@ -9,6 +9,9 @@ p{
     font-family: "Noto Sans TC", sans-serif;
 }
 
+html{    
+    background-color: #131313;
+}
 
 #logo{
     height: 225px; /* 225px/1440px */
