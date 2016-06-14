@@ -91,20 +91,33 @@ html{
 }
 
 #footer{
-    background-color: lightgrey;
+    background-color: rgba(255,255,255, 0.2);
     width: 60vw;
-    height: 5vh;
+    height: 10vh;
     text-align: center;
     position: fixed;
     bottom: 0;
+    
+    transform: translateY(5vh);
+    
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    
+    transition: transform .5s;
+}
+
+#footer:hover{
+    transform: translateY(0);
 }
 
     #footer p{
         display: block;
         width: 100%;
         position: absolute;
-        top: 50%;
+        top: 25%;
         transform: translateY(-50%);
+        
+        color: rgba(255,255,255, 0.7);
 
     }
 
