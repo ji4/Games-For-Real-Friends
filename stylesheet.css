@@ -2,6 +2,8 @@
     display: inline-block;
 }*/
 body{
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
 *{
     margin: 0;
     padding: 0;
@@ -10,6 +12,8 @@ body{
 .container{
     width: 55%;
     margin: 0 auto; 
+p{    
+    font-family: "Noto Sans TC", sans-serif;
 }
 
 
