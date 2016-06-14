@@ -118,10 +118,12 @@ html{
         display: block;
         width: 100%;
         position: absolute;
-        top: 25%;
+        top: 58%;
         transform: translateY(-50%);
         
         color: rgba(255,255,255, 0.7);
+        
+        line-height: 24pt;
 
     }
 
