@@ -14,23 +14,31 @@ html{
     background-color: #131313;
 }
 
-#logo{
-    height: 225px; /* 225px/1440px */
-	width: 225px; 
-    border-radius: 100%;
-    margin-left: 20px;
-    float:left;
-}
-#brief{
-    height: 20.40816327%; /* 50px/245px */
-    width: 59.34%; /* 470px/792px */
-    padding-top: 70px; /* 70px/291px */
-    padding-bottom: 85px;
-    margin-left: 270px;
-    line-height: 1.5;
-    text-align: justify;
 }
 
+#header{
+    height: 20vh;
+    width: 60%;
+    margin: 4% auto;
+    //background-color: rgba(88, 182, 255, 0.5);
+}
+
+    #logo{
+        height: inherit;
+        width: auto;
+        float:left;
+    }
+    #brief{
+        color: white;
+        font-size: 12pt;
+        
+        width: 60%;
+        margin-left: 40%;
+        
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
 
 
 
