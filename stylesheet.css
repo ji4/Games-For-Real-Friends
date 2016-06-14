@@ -45,10 +45,21 @@ html{
 
 #footer{
     background-color: lightgrey;
-    height:25px;
-    width: 100%;
-    margin-top: 65px;
-    padding-top: 15px;
+    width: 60vw;
+    height: 5vh;
     text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+
+    #footer p{
+        display: block;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+
+    }
+
     position: fixed;
 }
