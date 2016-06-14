@@ -19,6 +19,8 @@ html{
 #Frame{
     margin: 0 auto;
     width: 60vw;
+    
+    overflow: hidden;
 }
 
 #header{
@@ -80,16 +82,16 @@ html{
     display: block;
     width: 100%;
     
-    transition: width .8s, left 1.8s, top 1.8s;
+    transition: transform .4s, -webkit-filter .4s, filter .4s;
 }
 
 .game>img:hover{
     position: relative;
     float: left;
-    width: 104%;
-    left: -4%;
-    top: -4%;
     z-index: 5;
+    transform: scale(1.04) translateY(-1%) translateX(-1%);
+    -webkit-filter: drop-shadow(4px 4px 8px rgba(88, 182, 255, 0.4));
+    filter: drop-shadow(4px 4px 8px rgba(88, 182, 255, 0.4));
 }
 
 #footer{
