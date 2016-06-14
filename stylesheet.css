@@ -14,30 +14,41 @@ html{
     background-color: #131313;
 }
 
+#Frame{
+    margin: 0 auto;
+    width: 60vw;
 }
 
 #header{
+    display: block;
     height: 20vh;
     width: 60%;
     margin: 4% auto;
-    //background-color: rgba(88, 182, 255, 0.5);
 }
 
-    #logo{
-        height: inherit;
-        width: auto;
-        float:left;
+    #Wrapper_Logo{
+        position: relative;
+        display: inline-block;
+        left: 0 ;
+        width: 40%;
+        height: 100%;
     }
-    #brief{
+
+    #Wrapper_Logo > img{
+        position: absolute;
+        height: 100%;
+        right: 8%;
+    }
+
+    #header>p{
+        display: inline-block;
+        position: relative;
         color: white;
         font-size: 12pt;
+        max-width: 60%;
         
-        width: 60%;
-        margin-left: 40%;
-        
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
+        bottom: 50%;
+        transform: translateY(50%);
     }
 
 
