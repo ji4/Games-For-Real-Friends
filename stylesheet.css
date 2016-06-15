@@ -1,10 +1,34 @@
+<<<<<<< HEAD
 @import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
 @import url(http://fonts.googleapis.com/earlyaccess/cwtexhei.css);
 
 *{
+=======
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+#up{
+    overflow: auto;
+}
+
+#down{
+    margin-top: 30px;
+}
+.temp{
+    display: inline-block;
+}
+
+
+
+body{
+>>>>>>> master
     margin: 0;
     padding: 0;
 }
+<<<<<<< HEAD
 
 p{    
     font-family: 'cwTeXHei', sans-serif;
@@ -83,6 +107,38 @@ html{
     float: left;
     display: block;
     width: 100%;
+=======
+.container{
+    width: 55%;
+    margin: 0 auto; 
+    margin-top: 50px;
+}
+
+#logo{
+    height: 225px; 
+	width: 225px; 
+    border-radius: 100%;
+    margin-left: 20px;
+    float:left;
+}
+#brief{
+    position: absolute;
+    height: 50px; 
+    width: 470px;
+    margin-top: 70px;
+    margin-left: 25px;
+    line-height: 1.5;
+    text-align: justify;
+    
+}
+
+.game img{
+    display: inline;
+    margin: 20px;
+    height: 140px;
+    width: 210px;
+    box-shadow: 5px 5px 9px #d0cdcd, -5px -3px 9px lightGrey;
+>>>>>>> master
     
     transition: transform .4s, -webkit-filter .4s, filter .4s;
 }
@@ -97,6 +153,7 @@ html{
 }
 
 #footer{
+<<<<<<< HEAD
     background-color: rgba(255,255,255, 0.2);
     width: 60%;    
     min-width: 900px;
@@ -307,3 +364,12 @@ html{
             content: '';
             padding-top: 60%;
         }
+=======
+    background-color: lightgrey;
+    height:40px;
+    width: 100%;    
+    margin-top: 60px;
+    padding-top: 10px;
+    text-align: center;
+}
+>>>>>>> master
