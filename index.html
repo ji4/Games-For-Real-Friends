@@ -5,6 +5,22 @@
         <meta charset="UTF-8">
         <link type="text/css" rel="stylesheet" href="stylesheet.css">
         <title>Untitled Document</title>
+        <script>
+            function InitListener(){
+                var temp = document.getElementsByClassName("game");
+                for(i = 0; i<temp.length; i++){
+                    temp[i].addEventListener("click", popup);
+                }
+                
+                document.getElementsByClassName("LeaveWindow")[0].addEventListener("click", popReset);
+                document.getElementsByClassName("blackMask")[0].addEventListener("click", popReset);
+                document.getElementsByClassName("ChevronLeft")[0].addEventListener("click", popSwitch);
+                document.getElementsByClassName("ChevronRight")[0].addEventListener("click", popSwitch);
+                popReset(); 
+            }          
+            
+            InitJSON();
+        </script>
     </head>
     <body>
        <div id="Frame">
