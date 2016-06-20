@@ -5,9 +5,9 @@ function FillGameInfo(ids) {
     ids = parseInt(ids);
     console.log("Current: " + currentID + ", Passed in ID: " + ids);
     
-    if(info[ids].id != ids){
+    if (info[ids].id !== ids) {
         alert("Ids don't match!");
-        reutrn;
+        return;
     }
     currentID = ids;
     console.log("Current: " + currentID + ", Passed in ID: " + ids);
@@ -23,7 +23,7 @@ function FillGameInfo(ids) {
 
 }
 
-function popup(event){
+function popup(event) {
     popReset();
     document.getElementsByClassName("Base")[0].style.visibility = "visible";
     
@@ -43,8 +43,8 @@ function popReset(){
 
 function popSwitch(event){
     console.log("current: " + currentID);
-    if (event.target.className=="ChevronLeft") FillGameInfo((currentID - 1)>=0? (currentID - 1):currentID);
-    else if (event.target.className=="ChevronRight")FillGameInfo((currentID + 1)>info.length? currentID:(currentID+1));
+    if (event.target.className == "ChevronLeft") FillGameInfo((currentID - 1) >= 0 ? (currentID - 1) : currentID);
+    else if (event.target.className == "ChevronRight") FillGameInfo((currentID + 1) > info.length? currentID : (currentID+1));
 }
 
 function loadJSON(callback) {
